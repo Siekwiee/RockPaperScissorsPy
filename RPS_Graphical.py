@@ -31,7 +31,7 @@ def Player_Choice():
     print(Cpu_Choice)
     if Player_Choose not in posibilities:
         print(Player_Choose)
-        messagebox.showwarning("Warning", "Answer invalid!")
+        messagebox.showwarning("Warning", "Answer invalid!!")
     Game_Result()
 
 def Restart_Game():
